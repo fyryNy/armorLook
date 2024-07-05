@@ -3,4 +3,4 @@
 // User API for oCNpc
 // Add your methods here
 
-void EquipArmor_Union(oCItem *);
+void InitModel_Union();

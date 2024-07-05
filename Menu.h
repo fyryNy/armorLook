@@ -2,8 +2,14 @@
 // Union HEADER file
 
 namespace GOTHIC_ENGINE {
-	class Menu {
-	public:
-		Array<oCItem*> GetArmors();
-	};
+		struct Armor {
+				string Name;
+				string VisualName;
+				int VisualSkin;
+		};
+
+		class Menu {
+		public:
+				Array<Armor> GetArmors();
+		};
 }
